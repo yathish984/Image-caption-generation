@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+
+# Node
+node_modules/
+build/
+
+
+# VSCode
+.vscode/
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Hugging Face / models
+~/.cache/huggingface/
+models/
+*.bin
+*.pt
+*.pth
