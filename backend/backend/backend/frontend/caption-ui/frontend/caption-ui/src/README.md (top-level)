@@ -1,0 +1,24 @@
+# BDA Project — Image Caption Generator
+
+
+FastAPI backend + React frontend to generate captions for images using a Hugging Face model.
+
+
+## Run (backend)
+cd backend
+python -m venv venv
+# PowerShell:
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn backend:app --reload --port 8000
+
+
+## Run (frontend)
+cd frontend/caption-ui
+npm install
+npm start
+
+
+## Notes
+- The first time you call the /caption endpoint the backend downloads the model (~1GB) and may take time.
+- Do not commit large model files; use .gitignore.
