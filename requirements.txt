@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+transformers>=4.30
+torch
+pillow
+python-multipart
